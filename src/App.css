@@ -3,6 +3,10 @@
 html,
 body {
   overscroll-behavior: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 #root {
   margin: 0;
