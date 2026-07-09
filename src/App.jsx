@@ -805,6 +805,9 @@ function App() {
               {sitePasswordError}
             </p>
           )}
+          <p style={{ fontSize: "10px" }}>
+            logging in may take upwards of 30 seconds
+          </p>
         </div>
       </div>
     );
