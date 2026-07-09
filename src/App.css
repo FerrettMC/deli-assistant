@@ -89,7 +89,7 @@ body {
   background: #fff;
   border: 3px solid var(--lime);
   border-radius: 26px;
-  padding: 20px 50px;
+  padding: 20px 10px;
   box-shadow: var(--shadow);
   font-weight: 200;
   font-size: 3vw;
@@ -104,10 +104,11 @@ body {
   width: 100%;
   height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center; /* horizontal centering stays */
-  justify-content: safe center; /* falls back to top-align if it overflows */
+  align-items: center;
+  justify-content: safe center;
 }
 
 .speech-bubble p {
