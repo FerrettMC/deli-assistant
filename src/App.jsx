@@ -31,7 +31,7 @@ function App() {
   const [isFastBob, setIsFastBob] = useState(false);
   const [isTyping, setIsTyping] = useState(false);
   const [bubbleText, setBubbleText] = useState(
-    "Welcome to the Festival Foods Deli Assistant.",
+    "Welcome to the Festival Foods Deli Assistant. Heads up: if I've been asleep for a bit, my first answer might take a little longer while I wake up! (around 15-20s)",
   );
 
   const [bulkText, setBulkText] = useState("");
