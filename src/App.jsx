@@ -1417,7 +1417,7 @@ function App() {
               improved)
             </p>
             <textarea
-              placeholder="e.g. the price should be $5.99, not $4.99"
+              placeholder="e.g. `the price of coleslaw is $5.99/lb` (Rewrite the info completely)"
               value={wrongInfoHowToImprove}
               onChange={(e) => setWrongInfoHowToImprove(e.target.value)}
               rows={4}
