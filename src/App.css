@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 html,
-body,
+body {
+  overscroll-behavior: none;
+}
 #root {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
+  background: #4c4d54; /* matches the darkest part of your app's gradient */
 }
 
 body {
