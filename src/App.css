@@ -79,7 +79,7 @@ body {
 .speech-bubble {
   position: absolute;
   top: 38%;
-  left: 30%;
+  left: 33%;
   transform: translate(-50%, -50%);
   z-index: 5;
   width: calc(100vw * 8 / 13);
