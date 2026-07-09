@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     host: "0.0.0.0", // ensures Vite listens on all interfaces
     allowedHosts: [
-      "racoon-deranged-overturn.ngrok-free.dev", // ngrok
+      "localhost", // test server
       "https://deli-assistant-backend.onrender.com",
     ],
   },
