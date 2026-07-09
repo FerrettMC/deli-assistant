@@ -1413,11 +1413,10 @@ function App() {
             </div>
 
             <p style={{ fontSize: "13px", marginBottom: "6px" }}>
-              How should this be improved? (Write the entire piece of info but
-              improved)
+              How should this be improved?
             </p>
             <textarea
-              placeholder="e.g. `the price of coleslaw is $5.99/lb` (Rewrite the info completely)"
+              placeholder="e.g. the price of coleslaw is $5.99/lb"
               value={wrongInfoHowToImprove}
               onChange={(e) => setWrongInfoHowToImprove(e.target.value)}
               rows={4}
