@@ -7,7 +7,7 @@ export default defineConfig({
     host: "0.0.0.0", // ensures Vite listens on all interfaces
     allowedHosts: [
       "racoon-deranged-overturn.ngrok-free.dev", // ngrok
-      "amber-minute-miami-perry.trycloudflare.com",
+      "https://deli-assistant-backend.onrender.com",
     ],
   },
 });
